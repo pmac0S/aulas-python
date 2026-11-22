@@ -1,5 +1,5 @@
 #ATIVIDADE AULA 17
-arquivo = open ("CANIL.txt", "w")
+arquivo = open* ("CANIL.txt", "w")
 nomes = []
 raças = []
 for i in range (5):
@@ -9,7 +9,3 @@ for i in range (5):
     raças.append(raça)
     arquivo.write (nome + " " + raça + "\n")
 arquivo.close()
-
-
-
-

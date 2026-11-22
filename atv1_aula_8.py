@@ -12,5 +12,3 @@ for i in range (10):
         print (f"\n O valor da corrida é R${valor:.2f}")
 print(f" O total de corridas caras foi: {caro}")
 print (f" O total de corridas baratas foi de: {barato}")
-
-
