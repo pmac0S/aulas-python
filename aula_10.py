@@ -20,3 +20,15 @@ for i in range(5):
 # a lista  vai mostrando os valores que você colocou (entenda valores não apenas como sendo só números)
 # usar o .append() serve para literalmente guadar os valores que o usuário digitar na lista
 # é como se ele pegasse o valor e já colocasse direto na lista criada
+# funções usadas: len(), .append(), .sort()
+# algumas funções adicionais: min(), max(), sum()
+
+notas = []
+for i in range (1, 6):
+    notas.append(int(input(f"Digite a {i} nota: ")))
+    notas.sort()
+
+print(notas)
+print(f"A menor nota foi: ", min(notas))
+print(f"A maior nota foi: ", max(notas))
+print(f"A soma das notas foi: ", sum(notas))
