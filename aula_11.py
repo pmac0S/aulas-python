@@ -1,43 +1,11 @@
-# Recapitulando aula 10
-# aprendendo matriz
-# funções de listas: .append(), .sort(), len(), max(), min(), sum), .pop(),
+# aula 11:
+# falaremos de matrizes. eLas são "funções" bidimensionais, representam uma tabela de linhas e colunas.
+vetor = []
+for i in range(5):
+    vetor.append(int(input(f"Digite um valor para a posição {i}; ")))
+print(vetor[2])
 
-# o código abaixo é um código interativo, organizado, onde o usuário vai escolher no terminal determinada função a partir de um print pré-especificado:
-
-nomes = []
-while True:
-    print("\n=== Menu de Opções ===")
-    print("1.Adicionar nome")
-    print("2.Listar nomes")
-    print("3.Atualizar nome")
-    print("4Deletar nome")
-    print("5.Sair")
-
-    opcao = int(input("Digite a opção desejada: "))
-
-    if opcao == 1:
-        nomes.append(input("Digite o nome que deseja adicionar: "))
-
-    elif opcao == 2:
-        print("Lista de nomes: ")
-        for i in enumerate(nomes):
-            print(f"{i+1} nome: {nome}")
-
-    elif opcao == 3:
-        indice = int(input("digite o índice do nome que deseja atualizar: ")) - 1
-        if 0 <= indice < len(nomes):
-            novo_nome = input(f"Digite o novo nome: ")
-            nomes[indice] = novo_nome
-        else:
-            print("Índice inválido.")
-    elif opcao == 4:
-        indice = int(input("Digite o índice do nome que deseeja deletar: ")) - 1
-        if 0 <= indice < len(nomes):
-            nomes.pop(indice)
-        else:
-            print("Índice unválido.")
-    elif opcao == 5:
-        print("Programa encerrado.")
-        break
-    else:
-        print("Opção inválida.")
+# basicamente você criou uma lista;
+#  depois usou uma estrutura de repetição tipo for;
+#  ai pediu para que o usuáro adcionasse um valor para a posição "i" na lista, usopu o .append() para os vaores serem adcionados na lista
+# terminou com um print mostrando qual foi o valor escolhido na posição 2 da lista
