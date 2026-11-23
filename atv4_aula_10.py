@@ -20,4 +20,12 @@ while True:
         jogador_10.append(num)
     elif num == 11:
         jogador_11.append(num)
-print(f"O total de votos válidos: {len(jogador_7)+len(jogador_8)+len(jogador_9)+len(jogador_10)+len(jogador_11)}")
+print(f"O total de votos válidos: {len(jogador_7)+len(jogador_8)+len(jogador_9)+len(jogador_10)+len(jogador_11)}") #você esta calculando o total direto na saída de dados, isso esta certo, porem errado, é mais fácil voce criar uma função para calcular antes, e depois só adcionar essa função na saída de dados
+
+# Falta:
+# b. Os números e respectivos votos de todos os jogadores que receberam votos;
+# c. O percentual de votos de cada um destes jogadores;
+# d. O número do jogador escolhido como o melhor jogador da partida, juntamente com o número de votos e o percentual de votos dados a ele.
+
+total = len(jogador_7)+len(jogador_8)+len(jogador_9)+len(jogador_10)+len(jogador_11)
+print(f"\nO total de votos válidos: {total}")
