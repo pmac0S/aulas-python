@@ -21,7 +21,7 @@ while True:
     elif opcao == 2:
         print("Lista de nomes: ")
         for i in enumerate(nomes):
-            print(f"{i+1} nome: {nome}")
+            print(f"{i+1} nome: {nomes}")
 
     elif opcao == 3:
         indice = int(input("digite o índice do nome que deseja atualizar: ")) - 1
