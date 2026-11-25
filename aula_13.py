@@ -58,3 +58,10 @@ print(again.lower()) # deixa tudo minúsculo
 print(again.capitalize()) # deixa maiúscula só a primeira letra da frase
 print(again.title()) #deixa todas as primeiras letras maiúsculas
 print(again.count("e")) # seleciona um caractere para quantas vezes ele se repete
+
+
+# uma função tipo string muito usada será:
+# .sprip(): ela remove espaços em branco de tudo
+frase="eu sou um banana"
+nova = frase.split()
+print(nova)
