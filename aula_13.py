@@ -40,3 +40,21 @@ print(mudanca)
 mudamos = "mudarei o código!"
 novo = mudamos.replace("mudarei", "mudei")
 print(novo)
+
+# algumas string:
+# .upper(): deixa as letras maiúsculas
+# .lower(): deixa as letras minúsculas
+# .capitalize(): deixa só a primeira letra maiúscula
+# .title(): deixa a primeira letra de todas maiúsculas
+# .count(): escolhe um único caractere para ver quantas vezes aparece
+
+letra = "letra da frase"
+nova_letra = letra.capitalize()
+print(nova_letra)
+
+again = "new letter in speech"
+print(again.upper()) # deixa tudo maiúsculo
+print(again.lower()) # deixa tudo minúsculo
+print(again.capitalize()) # deixa maiúscula só a primeira letra da frase
+print(again.title()) #deixa todas as primeiras letras maiúsculas
+print(again.count("e")) # seleciona um caractere para quantas vezes ele se repete
